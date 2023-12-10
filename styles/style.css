@@ -2,6 +2,7 @@
   font-family: "DM Sans", sans-serif;
 }
 
+/* section title bar */
 .html-body {
   background: #191919;
   margin: 0 auto;
@@ -31,6 +32,8 @@
 a.buttons-btn {
   color: #137084;
 }
+
+/* section body pages one */
 .container {
 }
 
@@ -43,7 +46,7 @@ a.buttons-btn {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 40px;
+  gap: 10vh;
 }
 
 .container-background {
@@ -58,38 +61,3 @@ a.buttons-btn {
   position: relative;
   margin-bottom: 70px;
 }
-
-.container-title {
-  font-size: 80px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 88px; /* 125.714% */
-  letter-spacing: 3.2px;
-}
-
-.container-text {
-    display: flex;
-    font-size: 80px;
-    width: 120px;
-    height: 100px;
-   position: absolute;
-   
-   
-   bottom: -27%;
-   left: 0;
-   background-image: url(/svg/IMAGE\ \(5\).svg);
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
-}
-
-.container-listing {
-  
-}
-
-.subtext {
-    
-}
-
-.container-app {
-}   
