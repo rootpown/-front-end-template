@@ -2,6 +2,10 @@
   font-family: "DM Sans", sans-serif;
 }
 
+.color {
+  color: #fff;
+}
+
 /* section title bar */
 .html-body {
   background: #191919;
@@ -85,7 +89,6 @@ a.buttons-btn {
   font-size: 15px;
   font-style: normal;
   color: #fff;
-  padding: 10pox;
 }
 
 .container-list-elements {
@@ -96,7 +99,7 @@ a.buttons-btn {
 ul.container-element {
   list-style-type: none;
   display: flex;
-  margin-left: 0; /* Отступ слева в браузере IE и Opera */
+  margin-left: 0;
   padding-left: 0;
 }
 
@@ -119,4 +122,106 @@ a.social-item--5 {
 }
 .social-link img {
   margin-right: 10px;
+}
+
+/* section pages two 
+
+      PARENT section
+*/
+.hero-container {
+  color: #fff;
+  margin-top: 6vh;
+}
+/* --------------------------------------------- */
+
+.hero-body-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-body-title-left {
+  font-size: 64px;
+  line-height: 80px;
+  letter-spacing: 2.8px;
+}
+
+.hero-body-subtitle {
+  display: flex;
+  align-items: center;
+  background: #118da8;
+
+  padding: 6px 15px 6px 20px;
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 400;
+}
+/* /*/
+.hero-example {
+  display: flex;
+  gap: 10vh;
+  padding: 3vh;
+  margin-top: 50px;
+  background-color: #000000;
+  border-radius: 2vh;
+  -webkit-border-radius: 2vh;
+  -moz-border-radius: 2vh;
+  -ms-border-radius: 2vh;
+  -o-border-radius: 2vh;
+}
+
+.hero-example-row {
+}
+
+.hero-example-images {
+}
+
+.hero-example-title {
+}
+
+.hero-example-btn {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 6px 22px;
+  background-color: #191919;
+  border-radius: 1.3vh;
+  -webkit-border-radius: 1.3vh;
+  -moz-border-radius: 1.3vh;
+  -ms-border-radius: 1.3vh;
+  -o-border-radius: 1.3vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.hero-example-text {
+  color: #118da8;
+  margin-top: 4vh;
+  margin-bottom: 1vh;
+  line-height: 27px;
+}
+
+.hero-example-title-subtitle {
+  font-size: 64px;
+  line-height: 70px;
+  font-weight: 400;
+}
+
+.hero-example-title-min-title {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 33px;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.hero-btn-button {
+  margin-top: 35px;
+  background-color: #118da8;
+  padding: 12px 15px 12px 20px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  font-size: 17px;
 }
