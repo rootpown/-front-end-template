@@ -55,8 +55,14 @@ a.buttons-btn {
   width: 650px;
   height: 873px;
   flex-shrink: 0;
+  position: relative;
 }
-
+.container-star-img {
+  position: absolute;
+  top: -31px;
+  left: -28px;
+  z-index: 1;
+}
 .container-body {
   display: flex;
   flex-direction: column;
@@ -218,7 +224,7 @@ a.social-item--5 {
 /* --------------------------------------------- */
 /* --------------------------------------------- */
 .example-body {
-  margin-top: 20vh;
+  margin: 25vh auto;
 }
 .example-body-row {
   display: flex;
