@@ -1,11 +1,9 @@
 * {
   font-family: "DM Sans", sans-serif;
-}
-
-.color {
+  list-style-type: none;
+  text-decoration: none;
   color: #fff;
 }
-
 /* section title bar */
 .html-body {
   background: #191919;
@@ -36,8 +34,6 @@ a.buttons-btn {
 }
 
 /* section body pages one */
-.container {
-}
 
 .container-row {
   color: #fff;
@@ -57,6 +53,10 @@ a.buttons-btn {
   flex-shrink: 0;
   position: relative;
 }
+.color {
+  color: #fff;
+}
+
 .container-star-img {
   position: absolute;
   top: -31px;
@@ -346,4 +346,104 @@ a.social-item--5 {
   background-color: #118da8;
   color: white;
   font-size: 18px;
+}
+/* ---------------------------------------- */
+
+.list-example {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.list-example-body {
+  background-color: #000;
+  max-width: 350px;
+  padding: 4rem;
+  margin: 10px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+
+/* ul */
+.list-list-example {
+  list-style-type: none;
+  display: flex;
+  margin-left: 0;
+  padding-left: 0;
+}
+.list-list-example li {
+  padding: 2px;
+}
+.list-example--1 {
+  background-repeat: no-repeat;
+}
+
+.list-example--2 {
+  background-repeat: no-repeat;
+}
+
+.list-example--3 {
+  background-repeat: no-repeat;
+}
+
+.list-example--4 {
+  background-repeat: no-repeat;
+}
+
+.list-example--5 {
+  background-repeat: no-repeat;
+}
+
+/* title */
+.list-example-title {
+  font-size: 36px;
+  line-height: 43.2px;
+}
+
+.list-example-subtitle {
+  margin-top: 15px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 24px;
+  line-height: 29px;
+}
+/* Footer body */
+
+.footer-body {
+  margin-top: 7rem;
+  padding: 1rem;
+}
+
+.footer-body-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-body-information {
+}
+
+.footer-list-img {
+  display: flex;
+  padding-left: 0;
+  margin-left: 0;
+  gap: 1.2em;
+}
+
+.footer-list-title-info {
+  line-height: 33px;
+  font-size: 19px;
+}
+
+.footer-list-subtitle-info {
+  line-height: 33px;
+  font-size: 19px;
+}
+.footer-list-app-info {
+  display: flex;
+  gap: 1.5rem;
 }
